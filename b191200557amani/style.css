@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500&display=swap');
+   
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    background-color:rgb(26, 18, 8) !important;
+}
+header{
+    background-color: rgb(51, 35, 15) !important;
+    width: 100% !important;
+    position: fixed !important;
+    z-index: 999 !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    padding: 10px 200px !important;
+}
+
+.logo {
+    text-decoration: none !important;
+    color: rgb(213, 74, 10) !important;
+    text-transform: uppercase !important;
+    font-weight: 700 !important;
+    font-size: 1.8em !important;
+}
+
+.navbar a{
+    color: rgb(207, 159, 131) !important;
+    text-decoration: none !important;
+    font-size: 1.1em !important;
+    font-weight: 500 !important;
+    padding-left: 30px !important;
+}
+
+.navbar a:hover{
+   
+    color:rgb(111, 50, 126);
+}
+
+
+
+
+
+
+
+
+
+
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background: url(images/cami.jpg) no-repeat;
+    background-position:center ;
+}
+.main h3{
+    font-size: 2em;
+    color: rgb(44, 23, 9);
+}
+.main h1{
+    display: inline-block;
+    color: rgb(84, 38, 30);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h5{
+    color: rgb(38, 25, 25);
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: rgb(194, 207, 207);
+    background-color: rgb(65, 65, 103);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover{
+    background-color: rgb(33, 16, 99);
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: rgb(46, 24, 12);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: beige;
+}
+ .heading span{
+    color: rgb(213, 74, 10);
+
+ }
+.about .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+} 
+
+.about .row .info{
+    flex:1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 6rem;
+}
+
+.about .row .info h3{
+    font-size: 2rem;
+    color: rgb(241, 217, 200);
+    padding: 1rem 0;
+    font-weight: normal;
+
+}
+
+.about .row .info h3 span{
+    color: rgb(220, 123, 78);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+.yemen h3{
+    font-size: 2em;
+    color: rgb(185, 125, 85);
+    
+    margin-top: 30px;
+}
+
+.yemen p{
+    color: rgb(214, 205, 199);
+  font-size: 1em;
+    font-weight: 70  0;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.item .carousel-caption h3 {
+    color: rgb(29, 22, 19);
+    font-size: 3em;
+    font-weight: 90 0;
+}
+
+
+.item .carousel-caption p{
+    color: rgb(29, 22, 19);
+    font-size: 2em;
+    font-weight: 90 0;
+}
+.btnm{
+    color: rgb(216, 158, 122);
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+    padding-left: 30px;
+    margin-bottom:50px ;
+    }
+    
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     .project{
+        justify-content: space-between;
+     }
+   
+    
+    .projects .content{
+        margin-top: 30px;
+        
+    }
+    
+    .project-card {
+        background-color: #fff;
+        border: 1px solid #fff;
+        min-height: 14em;
+        width: 23em;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 20px;
+        padding-right: 30px;
+        width: 700px;
+    }
+
+    
+    .project-image img{
+        width:80%
+        
+    }
+    
+    .project-info {
+        padding: 1em;
+    }
+
+    .project-info1{
+        padding: 1em;
+        margin-left: 300px;
+    }
+    
+    .project-category {
+        font-size: 0.8em;
+        color: #000;
+    }
+    
+    .project-title {
+        display: flex;
+        justify-content: space-between;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin-top: 10px;
+    }
+    
+    .more-details {
+        text-decoration: none;
+        color: #3a6cf4;
+        width: 50%;
+    }
+    
+    .more-details:hover {
+        color: #601cfc;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.contact .row .content{
+   flex:1 1 30rem;
+   padding: 4rem;
+   padding-bottom:0 ;
+}
+.contact .row .content {
+    margin-bottom: 200px;
+}
+
+.contact .row  form{
+    flex:1 1 45rem;
+    padding: 2rem;
+   margin: 2rem;
+   margin-bottom: 4rem;
+   margin: 3rem 0;
+}
+
+.contact .row form .box{
+    padding: 1rem;
+    margin:1rem 0;
+    background: rgb(102, 90, 73);
+    color:rgb(31, 25, 25);
+    text-transform: none;
+    font-size: 1.7rem;
+    width: 100%;
+    
+}
+
+.contact .row form .message{
+    height: 15rem;
+    resize: none;
+}
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: rgb(185, 125, 85);
+    font-size: 3rem;
+    padding-bottom: 2rem;
+}
+
+.contact .row .content .info h3{
+display: flex;
+align-items: center;
+font-size: 2rem;
+color: bisque;
+padding: 1rem 0;
+font-weight: normal;
+     
+}
+.contact .row .content .info h3 i 
+{
+    padding-right: 1rem;
+    color: rgb(155, 80, 22);
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+.footer {
+    background-color: rgb(102, 90, 73);
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-title span {
+    color: #fffbf7;
+}
+
+.footer .social-icons a{
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+}
+
+
+
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .navbar a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
